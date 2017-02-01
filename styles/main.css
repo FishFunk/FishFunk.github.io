@@ -1,0 +1,142 @@
+@media(max-width: 768px) {
+	.muted-text {
+		text-align: center;
+	}
+	.lead-text {
+		text-align: center;
+	}
+}
+
+html, body {
+	margin: 0;
+	height: 100%;
+	background: rgb(97,51,93);
+    font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+}
+
+.indent {
+	margin-left: 10px;
+}
+
+/* Header */
+header {
+	margin-bottom: 10px;
+}
+
+#profile-img {
+	padding: 10px 0 0 10px;
+}
+
+.img-round{
+	max-width: 150px;
+	max-height: 150px;
+	border-radius: 50%;
+	border: solid 2px rgb(0,0,0);
+}
+
+.intro {
+	margin-top: 5px;
+}
+
+.lead-text {
+	color: rgb(255,255,255);
+	font-size: 30px;
+}
+
+.muted-text {
+	font-size: 20px;
+	color: rgba(255,255,255, 0.7);
+}
+/* Header */
+
+
+
+/*Footer Section*/
+footer {
+	min-height: 1em;
+	padding: 5px;
+	text-align: center;
+	width: 100%;
+	color: rgba(255,255,255, 0.7);
+}
+
+.btn:hover i{
+	font-weight: bolder;
+}
+
+.btn:hover {
+	text-decoration: none;
+	color: rgb(122,179,190);
+}
+
+.btn{
+	text-decoration: none;
+	color: rgb(122,179,190);
+}
+
+.media-links i {
+	padding: 10px;
+	color: rgb(122,179,190);
+}
+
+.media-links i:hover {
+	box-shadow: 0 4px 1px -1px white;
+}
+/*Contact Section*/
+
+
+
+
+/* Content */
+.pinch {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.accordion-header {
+	text-align: center;
+	height: 200px;
+}
+
+.accordion-header a{
+	padding: 60px;
+	font-size: 36px;
+	height: 100%;
+	width: 100%;
+	text-decoration: none;
+	text-shadow: 0 0 5px black;
+	color: white;
+}
+
+.accordion-header a:hover {
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+
+.accordion-body {
+	background: rgba(255,255,255,0.75);
+}
+
+
+#experience {
+	background-image: url("../img/computer.jpg");
+	background-size: cover;
+	background-repeat: none;
+	background-position: center;
+}
+
+#hobbies {
+	background-image: url("../img/chess.jpg");
+	background-size: cover;
+	background-repeat: none;
+	background-position: center;
+}
+
+#skills {
+	background-image: url("../img/whiteboard.jpg");
+	background-size: cover;
+	background-repeat: none;
+	background-position: center;
+}
+/* Content */
